@@ -78,4 +78,5 @@ commentForm.addEventListener('submit', (event)=>{
     commentLi.innerText = comment
     commentLi.className = "comment-item"
     commentsDiv.append(commentLi)
+    event.target.reset()
 })
